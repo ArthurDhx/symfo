@@ -6,13 +6,13 @@ doctrine:
                 #default database
                 url: '%env(resolve:DATABASE_URL)%'
                 driver: 'pdo_mysql'
-                server_version: '5.7'
+                server_version: '10.4.14'
                 charset: utf8mb4
             user:
                 # user database
                 url: '%env(resolve:DATABASE_USER_URL)%'
                 driver: 'pdo_mysql'
-                server_version: '5.7'
+                server_version: '10.4.14'
                 charset: utf8mb4
 
         # IMPORTANT: You MUST configure your server version,
