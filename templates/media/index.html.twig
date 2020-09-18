@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello MediaController!{% endblock %}
+
+{% block body %}
+<section class="articles">
+    <article>
+        <h2>Titre du media</h2>
+        <div class="metadata">Ecrit le 10/05/2018 à 19:00 dans la catégorie Politique</div>
+        <div class="content"><img src="http://placehold.it/350x150" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aut delectus dolor excepturi fuga iste!</p>
+            <p>Alias amet, consectetur cumque cupiditate magnam quae suscipit vitae? Amet ducimus eos incidunt quibusdam
+                voluptatibus.</p>
+            <a href=" {{ path('medias_show') }}" class="btn btn-primary">Lire la suite</a></div>
+    </article>
+    <article>
+        <h2>Titre du media</h2>
+        <div class="metadata">Ecrit le 10/05/2018 à 19:00 dans la catégorie Politique</div>
+        <div class="content"><img src="http://placehold.it/350x150" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias est ipsa ipsam iste odit repudiandae.</p>
+            <p>Accusantium, beatae blanditiis hic in iure molestiae officia quam quia rem tenetur totam veniam
+                veritatis?</p>
+            <a href="{{ path('medias_show') }}" class="btn btn-primary">Lire la suite</a></div>
+    </article>
+    <article>
+        <h2>Titre du media</h2>
+        <div class="metadata">Ecrit le 10/05/2018 à 19:00 dans la catégorie Politique</div>
+        <div class="content"><img src="http://placehold.it/350x150" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At eius eos illum? Deserunt, nihil vitae.</p>
+            <p>Ad consectetur, deleniti, expedita, fuga magnam molestias non placeat quis reprehenderit sed vel
+                voluptas. Soluta?</p>
+            <a href="{{ path('medias_show') }}" class="btn btn-primary">Lire la suite</a></div>
+    </article>
+</section>
+{% endblock %}
